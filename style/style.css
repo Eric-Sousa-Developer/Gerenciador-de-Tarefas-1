@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    color: #333;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../img/background-Relogio-Gerenciador-de-tarefas.jpg");
+    background-position:center;
+    background-size:auto;
+}
+.todo-container{
+    max-width: 650px;
+    margin: 3rem auto ;
+    background-color:#fff1a5;
+    padding: 1.5rem;
+    border-radius: 15px;
+} 
+.todo-container header {
+    text-align: center;
+    padding: 0 1rem 1rem;
+    border-bottom: 1px solid #ff3131;
+}
+button {
+    background-color:#fdfdfd;
+    color:#333;
+    border: 1px solid #ff3131;
+    padding: .3rem .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+button:hover {
+    color: #fdfdfd;
+    background-color:#ffa927c5;
+}
+.ativo{
+    font-weight: bold;
+    color:#ff3131;
+}
+.todo-form {
+    padding: 1rem;
+    border-bottom: 1px solid #ff3131;
+    margin-bottom: 1rem;
+}
+@media only screen and (max-width: 650px){
+
+    .todo-container{
+        width: 85%;
+    }
+    
+}
+
+@media only screen and (max-width: 500px){
+
+    .todo-container{
+        width: 75%;
+    }
+    
+}
+@media only screen and (max-width: 430px){
+
+    .todo-container{
+        width: 65%;
+    }; 
+    
+    
+}
