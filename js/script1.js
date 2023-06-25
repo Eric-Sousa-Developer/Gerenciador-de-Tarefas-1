@@ -27,7 +27,7 @@ function exibirPendentes() {
                                 <button onclick = "concluirTarefa(this.parentElement)">&#9989;</button>
                                 <button onclick = "alterarTarefa(this.parentElement , pendentes)">&#9997;</button>
                                 <button onclick = "excluirTarefa(this.parentElement , pendentes)">&#10006;</button>
-                            </section>`;    
+                            </section>`;     
     };
 };
 function exibirConcluidas() {
